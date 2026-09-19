@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="styles.css">
+        <title>Projects | Riley's Resume</title>
+    </head>
+    <body>
+        <div id="page-wrapper">
+        <header>
+            <h1>
+                Riley McBride
+            </h1>
+            <p>
+                Welcome to my Online Resume.
+            </p>
+        </header>
+        <div id="container">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="education.html">Education</a></li>
+                <li><a href="experiences.html">Experiences</a></li>
+                <li><a href="certifications.html">Certifications</a></li>
+                <li><a href="achievements.html">Achievements</a></li>
+                <li><a href="projects.html">Projects</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <h2>
+                Projects
+            </h2>
+            <p>Here's a list of projects I've been involved in, along with the ever-so enticing <strong>calculator</strong> mentioned on the Home page:</p>
+            <ul>
+                <li class="top-item">London Social Media Event Tracker</li>
+                <ul>
+                    <li>London Study Abroad</li>
+                    <li>Managed and coordinated with team of 3 to produce on-time deliverables</li>
+                    <li>Utilized Django for backend/frontend function and account handling</li>
+                </ul>
+            </ul>
+            <h2>
+                Calculator
+            </h2>
+            <p>Behold... <strong>The Calculator</strong>. in all of it's <i>calculating</i> glory.</p>
+            <div id="calculator">
+                <p>Calculator-3000&trade;</p>
+                <input type="text" id="num1">
+                <input type="text" id="num2">
+                <ul id="calculator-buttons">
+                    <button onclick="Add()">+</button>
+                    <button onclick="Subtract()">-</button>
+                    <button onclick="Multiply()">*</button>
+                    <button onclick="Divide()">/</button>
+                    <button onclick="Power()">**</button>
+                    <button onclick="Clear()">Clear</button>
+                </ul>
+                <p id="output"> </p>
+            </div>
+            <script src="calculator.js"></script>
+        </main>
+        </div>
+        <footer>
+            <p>
+                &#169;Riley McBride - All Rights Reserved - <a href="">Credits</a>
+            </p>
+        </footer>
+        </div>
+    </body>
+</html>
